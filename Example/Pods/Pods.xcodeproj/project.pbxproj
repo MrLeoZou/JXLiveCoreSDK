@@ -1,0 +1,786 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3463EF7D63A83C733C55CD6F6DF83477 /* Pods-JXLiveCoreSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF7A6FDF2426685847B7BF560DC0AFC9 /* Pods-JXLiveCoreSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		488C34E0FD23CF710F0500FD735A66E9 /* Pods-JXLiveCoreSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDD8A66A27BD9492EF50E592B3F2F59 /* Pods-JXLiveCoreSDK_Example-dummy.m */; };
+		4AE4467F922B5C42BDCFAA77B03DF6DF /* JXLiveCoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 100BCCB5D373579FDE747269AA8C2909 /* JXLiveCoreViewController.m */; };
+		5DBF393F8D5D16144B6C0E79C0B63245 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5F7692AE8E6A3C836EAFC010B61E93F6 /* JXLiveCoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D19F4AFA5D566C98F1129DA30191B71C /* JXLiveCoreManager.m */; };
+		78370CF8A70C3F0AD050C1107B7BDC0E /* JXLiveCoreSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 275C058F7111397FF3D1D365F5F94613 /* JXLiveCoreSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7ABA85A97A96E190B3F2F84C040FE871 /* JXLiveCoreSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF710A39D6EC24B8899DE98C7B617CD0 /* JXLiveCoreSDK-dummy.m */; };
+		A89268632847BAA04B335EDA2FB9277B /* JXLiveCoreManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B3D46604AC062F82887520A0E5B9FD8 /* JXLiveCoreManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADEDA42C07517810A977ECB4D368F102 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BF4B698740B7E3C24708F0A1D819BBC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C4B9CFF41986D3C51850475B10FBF613 /* JXLiveCoreViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B493BE41AB336F6B9C459543399AC89 /* JXLiveCoreViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5BCF815E4A6C5A7C2FC05E9144D38A2 /* Pods-JXLiveCoreSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 299310D96F199A3821D1E17AD1E7FB5C /* Pods-JXLiveCoreSDK_Tests-dummy.m */; };
+		CFC956F41DFAE023C42F6F8E49D517BE /* Pods-JXLiveCoreSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C92661A465BA2CAD203ED008878C99D /* Pods-JXLiveCoreSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E32F59AC45BA723240A6E925D74001D2 /* JXLiveCoreSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0BCBDD46A1C9E7EE029E697F473F32 /* JXLiveCoreSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		377DD48258BD36348B30C88C95CA2298 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AA86EA9231CAD8A00D80800F5C9BC92;
+			remoteInfo = "Pods-JXLiveCoreSDK_Example";
+		};
+		E8091BE20F5EE6439F05AFD057DDB584 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E9A146C67534F05C434C9B37192FC4F;
+			remoteInfo = JXLiveCoreSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		083B73DFDBE1F2B492B07462298A3EF0 /* Pods-JXLiveCoreSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JXLiveCoreSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		100BCCB5D373579FDE747269AA8C2909 /* JXLiveCoreViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXLiveCoreViewController.m; path = JXLiveCoreSDK/Classes/JXLiveCoreViewController.m; sourceTree = "<group>"; };
+		1D9E6F08A56945F64FF9452DDAD28DFE /* Pods-JXLiveCoreSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JXLiveCoreSDK_Tests-Info.plist"; sourceTree = "<group>"; };
+		22ED1DB5F33F06A01B9673E28E17601F /* Pods_JXLiveCoreSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JXLiveCoreSDK_Example.framework; path = "Pods-JXLiveCoreSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		275C058F7111397FF3D1D365F5F94613 /* JXLiveCoreSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXLiveCoreSDK-umbrella.h"; sourceTree = "<group>"; };
+		299310D96F199A3821D1E17AD1E7FB5C /* Pods-JXLiveCoreSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JXLiveCoreSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		30C4CD0F07D96F910B03082239D3846B /* Pods-JXLiveCoreSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JXLiveCoreSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		36F1DE0D8D646B8AAC45AAACAC6FA8B8 /* Pods-JXLiveCoreSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JXLiveCoreSDK_Example-Info.plist"; sourceTree = "<group>"; };
+		3B3D46604AC062F82887520A0E5B9FD8 /* JXLiveCoreManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXLiveCoreManager.h; path = JXLiveCoreSDK/Classes/JXLiveCoreManager.h; sourceTree = "<group>"; };
+		517566117770469CD4930F8DDF2FFE0A /* JXLiveCoreSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JXLiveCoreSDK.debug.xcconfig; sourceTree = "<group>"; };
+		5C92661A465BA2CAD203ED008878C99D /* Pods-JXLiveCoreSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JXLiveCoreSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5E868E217B99D176DC3533109C90886A /* Pods-JXLiveCoreSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JXLiveCoreSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		64E61B57585DEB32EB0F45AA7D53FEB0 /* JXLiveCoreSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JXLiveCoreSDK-Info.plist"; sourceTree = "<group>"; };
+		6BB0601991B5F44A2AFE7EC99004EF30 /* Pods_JXLiveCoreSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JXLiveCoreSDK_Tests.framework; path = "Pods-JXLiveCoreSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F0BCBDD46A1C9E7EE029E697F473F32 /* JXLiveCoreSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXLiveCoreSDK.h; path = JXLiveCoreSDK/Classes/JXLiveCoreSDK.h; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75913EEEBF33AB567A18582868299287 /* Pods-JXLiveCoreSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JXLiveCoreSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		778C78F1C4AC5826375D101E4B07DC48 /* JXLiveCoreSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JXLiveCoreSDK.release.xcconfig; sourceTree = "<group>"; };
+		7B493BE41AB336F6B9C459543399AC89 /* JXLiveCoreViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXLiveCoreViewController.h; path = JXLiveCoreSDK/Classes/JXLiveCoreViewController.h; sourceTree = "<group>"; };
+		816479FE54D29FEC5E827EF6C5F7525D /* JXLiveCoreSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JXLiveCoreSDK.modulemap; sourceTree = "<group>"; };
+		874A8F2F3E3F500B7FD760E94AB31DF3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8CDD8A66A27BD9492EF50E592B3F2F59 /* Pods-JXLiveCoreSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JXLiveCoreSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		8D9119F0BB97266EE3C77B440EEA2E8C /* Pods-JXLiveCoreSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JXLiveCoreSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4E4304F40DFF11988B1240F95E649C0 /* Pods-JXLiveCoreSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JXLiveCoreSDK_Example.modulemap"; sourceTree = "<group>"; };
+		ACD31F3A488C6B53AAAF2AC51D67C023 /* Pods-JXLiveCoreSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JXLiveCoreSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B2AF757B32AA764D3AA03AFE6E72968E /* Pods-JXLiveCoreSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JXLiveCoreSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B561C766D6BBD470006BF78C3914B757 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BCDBCEF80471F4AFADEDB4542F4174C8 /* JXLiveCoreSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXLiveCoreSDK-prefix.pch"; sourceTree = "<group>"; };
+		BF7A6FDF2426685847B7BF560DC0AFC9 /* Pods-JXLiveCoreSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JXLiveCoreSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		C9BC88E091CF5D356DAA0D39BE082139 /* Pods-JXLiveCoreSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JXLiveCoreSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D19F4AFA5D566C98F1129DA30191B71C /* JXLiveCoreManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXLiveCoreManager.m; path = JXLiveCoreSDK/Classes/JXLiveCoreManager.m; sourceTree = "<group>"; };
+		DF710A39D6EC24B8899DE98C7B617CD0 /* JXLiveCoreSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JXLiveCoreSDK-dummy.m"; sourceTree = "<group>"; };
+		ED711DC981192E7A9841C312F0061C92 /* Pods-JXLiveCoreSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JXLiveCoreSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F1230AD85CD7184E356272FDF447E111 /* JXLiveCoreSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JXLiveCoreSDK.framework; path = JXLiveCoreSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6E0046087F14C997C3D571FAB290DE5 /* Pods-JXLiveCoreSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JXLiveCoreSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FD981DBBF3B6A70CA4E2A05DB5F2C33B /* JXLiveCoreSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JXLiveCoreSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DEA98AF61B39C7920D0D8106BF2AFD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DBF393F8D5D16144B6C0E79C0B63245 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5908BD48EEBDF281BDB352E79701A894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF4B698740B7E3C24708F0A1D819BBC0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D902340EEF77DB5341DFCC424294E49B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADEDA42C07517810A977ECB4D368F102 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13CBFAB050839025D005191C6E7D632E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C88D7C2AB52DD4AE3C59FD2098BBF40A /* Pods-JXLiveCoreSDK_Example */,
+				7BE6386D517BD75211B0975608ED5FE7 /* Pods-JXLiveCoreSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2A5E443797193DE0CFE0043B52A48B5C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F67A77BAC218D0D61AF1E2403A5CB918 /* JXLiveCoreSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4C62247028DB36562978FD969B66EF1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1230AD85CD7184E356272FDF447E111 /* JXLiveCoreSDK.framework */,
+				22ED1DB5F33F06A01B9673E28E17601F /* Pods_JXLiveCoreSDK_Example.framework */,
+				6BB0601991B5F44A2AFE7EC99004EF30 /* Pods_JXLiveCoreSDK_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		739797937B944A036AA0247793D6564A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				816479FE54D29FEC5E827EF6C5F7525D /* JXLiveCoreSDK.modulemap */,
+				DF710A39D6EC24B8899DE98C7B617CD0 /* JXLiveCoreSDK-dummy.m */,
+				64E61B57585DEB32EB0F45AA7D53FEB0 /* JXLiveCoreSDK-Info.plist */,
+				BCDBCEF80471F4AFADEDB4542F4174C8 /* JXLiveCoreSDK-prefix.pch */,
+				275C058F7111397FF3D1D365F5F94613 /* JXLiveCoreSDK-umbrella.h */,
+				517566117770469CD4930F8DDF2FFE0A /* JXLiveCoreSDK.debug.xcconfig */,
+				778C78F1C4AC5826375D101E4B07DC48 /* JXLiveCoreSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JXLiveCoreSDK";
+			sourceTree = "<group>";
+		};
+		7BE6386D517BD75211B0975608ED5FE7 /* Pods-JXLiveCoreSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				083B73DFDBE1F2B492B07462298A3EF0 /* Pods-JXLiveCoreSDK_Tests.modulemap */,
+				F6E0046087F14C997C3D571FAB290DE5 /* Pods-JXLiveCoreSDK_Tests-acknowledgements.markdown */,
+				ACD31F3A488C6B53AAAF2AC51D67C023 /* Pods-JXLiveCoreSDK_Tests-acknowledgements.plist */,
+				299310D96F199A3821D1E17AD1E7FB5C /* Pods-JXLiveCoreSDK_Tests-dummy.m */,
+				1D9E6F08A56945F64FF9452DDAD28DFE /* Pods-JXLiveCoreSDK_Tests-Info.plist */,
+				5C92661A465BA2CAD203ED008878C99D /* Pods-JXLiveCoreSDK_Tests-umbrella.h */,
+				75913EEEBF33AB567A18582868299287 /* Pods-JXLiveCoreSDK_Tests.debug.xcconfig */,
+				ED711DC981192E7A9841C312F0061C92 /* Pods-JXLiveCoreSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-JXLiveCoreSDK_Tests";
+			path = "Target Support Files/Pods-JXLiveCoreSDK_Tests";
+			sourceTree = "<group>";
+		};
+		C88D7C2AB52DD4AE3C59FD2098BBF40A /* Pods-JXLiveCoreSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A4E4304F40DFF11988B1240F95E649C0 /* Pods-JXLiveCoreSDK_Example.modulemap */,
+				C9BC88E091CF5D356DAA0D39BE082139 /* Pods-JXLiveCoreSDK_Example-acknowledgements.markdown */,
+				B2AF757B32AA764D3AA03AFE6E72968E /* Pods-JXLiveCoreSDK_Example-acknowledgements.plist */,
+				8CDD8A66A27BD9492EF50E592B3F2F59 /* Pods-JXLiveCoreSDK_Example-dummy.m */,
+				30C4CD0F07D96F910B03082239D3846B /* Pods-JXLiveCoreSDK_Example-frameworks.sh */,
+				36F1DE0D8D646B8AAC45AAACAC6FA8B8 /* Pods-JXLiveCoreSDK_Example-Info.plist */,
+				BF7A6FDF2426685847B7BF560DC0AFC9 /* Pods-JXLiveCoreSDK_Example-umbrella.h */,
+				5E868E217B99D176DC3533109C90886A /* Pods-JXLiveCoreSDK_Example.debug.xcconfig */,
+				8D9119F0BB97266EE3C77B440EEA2E8C /* Pods-JXLiveCoreSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-JXLiveCoreSDK_Example";
+			path = "Target Support Files/Pods-JXLiveCoreSDK_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				2A5E443797193DE0CFE0043B52A48B5C /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				4C62247028DB36562978FD969B66EF1B /* Products */,
+				13CBFAB050839025D005191C6E7D632E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1C197F40690E65125A925D18A6B770C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FD981DBBF3B6A70CA4E2A05DB5F2C33B /* JXLiveCoreSDK.podspec */,
+				B561C766D6BBD470006BF78C3914B757 /* LICENSE */,
+				874A8F2F3E3F500B7FD760E94AB31DF3 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F67A77BAC218D0D61AF1E2403A5CB918 /* JXLiveCoreSDK */ = {
+			isa = PBXGroup;
+			children = (
+				3B3D46604AC062F82887520A0E5B9FD8 /* JXLiveCoreManager.h */,
+				D19F4AFA5D566C98F1129DA30191B71C /* JXLiveCoreManager.m */,
+				6F0BCBDD46A1C9E7EE029E697F473F32 /* JXLiveCoreSDK.h */,
+				7B493BE41AB336F6B9C459543399AC89 /* JXLiveCoreViewController.h */,
+				100BCCB5D373579FDE747269AA8C2909 /* JXLiveCoreViewController.m */,
+				F1C197F40690E65125A925D18A6B770C /* Pod */,
+				739797937B944A036AA0247793D6564A /* Support Files */,
+			);
+			name = JXLiveCoreSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		14488ED2B298C51681C2E09DE11E8F48 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC956F41DFAE023C42F6F8E49D517BE /* Pods-JXLiveCoreSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D44DFA926C0D2C453DA474128A79109 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3463EF7D63A83C733C55CD6F6DF83477 /* Pods-JXLiveCoreSDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0736C0DC967E5B01134C6F8A781F755 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A89268632847BAA04B335EDA2FB9277B /* JXLiveCoreManager.h in Headers */,
+				78370CF8A70C3F0AD050C1107B7BDC0E /* JXLiveCoreSDK-umbrella.h in Headers */,
+				E32F59AC45BA723240A6E925D74001D2 /* JXLiveCoreSDK.h in Headers */,
+				C4B9CFF41986D3C51850475B10FBF613 /* JXLiveCoreViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0AA86EA9231CAD8A00D80800F5C9BC92 /* Pods-JXLiveCoreSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FB8704FF8DF0A68CBB6C2C0D9F0FDE5 /* Build configuration list for PBXNativeTarget "Pods-JXLiveCoreSDK_Example" */;
+			buildPhases = (
+				7D44DFA926C0D2C453DA474128A79109 /* Headers */,
+				3EC8686F327BD2AFC8C41F3B869E8273 /* Sources */,
+				D902340EEF77DB5341DFCC424294E49B /* Frameworks */,
+				F06451C3C360B51469FE8717872B081A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D8D4818901F9D4E1B8840A7E87DB1D0 /* PBXTargetDependency */,
+			);
+			name = "Pods-JXLiveCoreSDK_Example";
+			productName = "Pods-JXLiveCoreSDK_Example";
+			productReference = 22ED1DB5F33F06A01B9673E28E17601F /* Pods_JXLiveCoreSDK_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8E9A146C67534F05C434C9B37192FC4F /* JXLiveCoreSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 660FF483547636BD5FF6262019F858C5 /* Build configuration list for PBXNativeTarget "JXLiveCoreSDK" */;
+			buildPhases = (
+				B0736C0DC967E5B01134C6F8A781F755 /* Headers */,
+				30C8302E426D98FBF9C628DB51F71B68 /* Sources */,
+				5908BD48EEBDF281BDB352E79701A894 /* Frameworks */,
+				BFAC6CAC5FC91F3ED33019EC8CB6B677 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JXLiveCoreSDK;
+			productName = JXLiveCoreSDK;
+			productReference = F1230AD85CD7184E356272FDF447E111 /* JXLiveCoreSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FD6D5A7322A4F0DAF7CF4B8A7D13ADE7 /* Pods-JXLiveCoreSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83205617E4C95EB364F2ED98C02CC431 /* Build configuration list for PBXNativeTarget "Pods-JXLiveCoreSDK_Tests" */;
+			buildPhases = (
+				14488ED2B298C51681C2E09DE11E8F48 /* Headers */,
+				71722CA301993D02010A5DE0341B15E3 /* Sources */,
+				4DEA98AF61B39C7920D0D8106BF2AFD7 /* Frameworks */,
+				E244C800962004D151050942446D1BF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB4F830221FB235CD0605988383A4483 /* PBXTargetDependency */,
+			);
+			name = "Pods-JXLiveCoreSDK_Tests";
+			productName = "Pods-JXLiveCoreSDK_Tests";
+			productReference = 6BB0601991B5F44A2AFE7EC99004EF30 /* Pods_JXLiveCoreSDK_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4C62247028DB36562978FD969B66EF1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E9A146C67534F05C434C9B37192FC4F /* JXLiveCoreSDK */,
+				0AA86EA9231CAD8A00D80800F5C9BC92 /* Pods-JXLiveCoreSDK_Example */,
+				FD6D5A7322A4F0DAF7CF4B8A7D13ADE7 /* Pods-JXLiveCoreSDK_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFAC6CAC5FC91F3ED33019EC8CB6B677 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E244C800962004D151050942446D1BF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F06451C3C360B51469FE8717872B081A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30C8302E426D98FBF9C628DB51F71B68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F7692AE8E6A3C836EAFC010B61E93F6 /* JXLiveCoreManager.m in Sources */,
+				7ABA85A97A96E190B3F2F84C040FE871 /* JXLiveCoreSDK-dummy.m in Sources */,
+				4AE4467F922B5C42BDCFAA77B03DF6DF /* JXLiveCoreViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EC8686F327BD2AFC8C41F3B869E8273 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488C34E0FD23CF710F0500FD735A66E9 /* Pods-JXLiveCoreSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71722CA301993D02010A5DE0341B15E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5BCF815E4A6C5A7C2FC05E9144D38A2 /* Pods-JXLiveCoreSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D8D4818901F9D4E1B8840A7E87DB1D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JXLiveCoreSDK;
+			target = 8E9A146C67534F05C434C9B37192FC4F /* JXLiveCoreSDK */;
+			targetProxy = E8091BE20F5EE6439F05AFD057DDB584 /* PBXContainerItemProxy */;
+		};
+		DB4F830221FB235CD0605988383A4483 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JXLiveCoreSDK_Example";
+			target = 0AA86EA9231CAD8A00D80800F5C9BC92 /* Pods-JXLiveCoreSDK_Example */;
+			targetProxy = 377DD48258BD36348B30C88C95CA2298 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2EBEAB3AF18C242417A5AB2E3DA336E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED711DC981192E7A9841C312F0061C92 /* Pods-JXLiveCoreSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JXLiveCoreSDK_Tests/Pods-JXLiveCoreSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JXLiveCoreSDK_Tests/Pods-JXLiveCoreSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		329B04FDEE509E1DFB5CF66F70756023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D9119F0BB97266EE3C77B440EEA2E8C /* Pods-JXLiveCoreSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JXLiveCoreSDK_Example/Pods-JXLiveCoreSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JXLiveCoreSDK_Example/Pods-JXLiveCoreSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4CEABEB5822C0D2CBB07799B37A59B93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 517566117770469CD4930F8DDF2FFE0A /* JXLiveCoreSDK.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JXLiveCoreSDK/JXLiveCoreSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JXLiveCoreSDK/JXLiveCoreSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JXLiveCoreSDK/JXLiveCoreSDK.modulemap";
+				PRODUCT_MODULE_NAME = JXLiveCoreSDK;
+				PRODUCT_NAME = JXLiveCoreSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A8A1EEB92DD4840121B2EE92E5E6AA59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75913EEEBF33AB567A18582868299287 /* Pods-JXLiveCoreSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JXLiveCoreSDK_Tests/Pods-JXLiveCoreSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JXLiveCoreSDK_Tests/Pods-JXLiveCoreSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B207FADAD6BE07405CBCEABCBAD15840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E868E217B99D176DC3533109C90886A /* Pods-JXLiveCoreSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JXLiveCoreSDK_Example/Pods-JXLiveCoreSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JXLiveCoreSDK_Example/Pods-JXLiveCoreSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FA516A5FA60D45C46A0330773DF76970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 778C78F1C4AC5826375D101E4B07DC48 /* JXLiveCoreSDK.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JXLiveCoreSDK/JXLiveCoreSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JXLiveCoreSDK/JXLiveCoreSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JXLiveCoreSDK/JXLiveCoreSDK.modulemap";
+				PRODUCT_MODULE_NAME = JXLiveCoreSDK;
+				PRODUCT_NAME = JXLiveCoreSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		660FF483547636BD5FF6262019F858C5 /* Build configuration list for PBXNativeTarget "JXLiveCoreSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CEABEB5822C0D2CBB07799B37A59B93 /* Debug */,
+				FA516A5FA60D45C46A0330773DF76970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83205617E4C95EB364F2ED98C02CC431 /* Build configuration list for PBXNativeTarget "Pods-JXLiveCoreSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8A1EEB92DD4840121B2EE92E5E6AA59 /* Debug */,
+				2EBEAB3AF18C242417A5AB2E3DA336E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FB8704FF8DF0A68CBB6C2C0D9F0FDE5 /* Build configuration list for PBXNativeTarget "Pods-JXLiveCoreSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B207FADAD6BE07405CBCEABCBAD15840 /* Debug */,
+				329B04FDEE509E1DFB5CF66F70756023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
